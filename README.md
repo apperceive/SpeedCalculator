@@ -22,6 +22,7 @@ Change background-image, distance (24.4 miles here), course description and othe
 - Tie to jsfiddle or other playground so uses this reporitory
 - Use fontawseome bike icon for slider handle.
 - Add mechanism to track usage?
+- Read and integrate: [How To Style HTML5 Range Slider Across Multiple Browsers](http://www.hongkiat.com/blog/html5-range-slider-style/)
 
 
 ##### Credits:
