@@ -24,7 +24,7 @@ Change background-image, distance (24.4 miles here), course description and othe
 - Add mechanism to track usage?
 
 
-##### Credit's:
+##### Credits:
 - Range input styling: [http://danielstern.ca/](http://danielstern.ca/range.css)
 - Background-image (CC-BY): https://www.flickr.com/photos/skinnylawyer/7174938930/
 
