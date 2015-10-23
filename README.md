@@ -20,3 +20,9 @@ Change background-image, distance (24.4 miles here), course description and othe
 - Home page for this (gh_pages?)
 - Demo pages for this (gh_pages? archive.org?)
 - Tie to jsfiddle or other playground so uses this reporitory
+
+
+##### Credit's:
+- Range input styling: [http://danielstern.ca/](http://danielstern.ca/range.css)
+- Background-image (CC-BY): https://www.flickr.com/photos/skinnylawyer/7174938930/
+
