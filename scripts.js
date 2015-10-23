@@ -21,6 +21,7 @@
     document.getElementById('speed').innerHTML = 'Crusing Speed: ' +  (speed > 0 ? speed + ' mph' : 'Infinite!');
   }
   
+  // ToDo: make this a jsonp service
   function getMessage(speed) {
     var rides = (speed < 25) ? getRandomIntInclusive(1, 6) : 0;
     var messagedef = "There "+(rides == 1 ? "is" : "are")+" <strong id='ridenum'>" + rides + "</strong> <a href='/upcoming-rides' title='Click to view upcoming rides listing...'>upcoming "+(rides == 1 ? "ride" : "rides")+"</a> with this speed available to club members.";
@@ -44,6 +45,7 @@
     return speed > 0 ? message : "There are <strong id='ridenum'>0 rides</strong> with this speed available to club members.<br/><small>Warp speed captain! The Timetravelers SIG will meet last Tuesday.</small>";
   }
   
+  // ToDo: Replace with ajax/jason call to service
   // Returns a random integer between min (included) and max (included)
   // Using Math.round() will give you a non-uniform distribution!
   function getRandomIntInclusive(min, max) {
