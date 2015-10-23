@@ -20,6 +20,8 @@ Change background-image, distance (24.4 miles here), course description and othe
 - Home page for this (gh_pages?)
 - Demo pages for this (gh_pages? archive.org?)
 - Tie to jsfiddle or other playground so uses this reporitory
+- Use fontawseome bike icon for slider handle.
+- Add mechanism to track usage?
 
 
 ##### Credit's:
