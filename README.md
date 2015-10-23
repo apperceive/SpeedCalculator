@@ -1,4 +1,4 @@
-# SpeedCalculator
+### SpeedCalculator
 Bicycle club ride speed calculator. 
 
 Change background-image, distance (24.4 miles here), course description and other text to suit your needs.
@@ -7,11 +7,9 @@ Change background-image, distance (24.4 miles here), course description and othe
 ##### Bugs:
 - Tighten up spacing around slider in IE 10
 - Need fallback slider for older Firefox and Safari browsers on my old Mac Mini (get version info)
-- 
 
 ##### Notes:
 - Also available on JSFiddle.com at [jsfiddle.net/apperceive](http://jsfiddle.net/apperceive)
-- 
 
 ##### ToDo's:
 - Add AJAX/JSONP call for upcoming rides service
