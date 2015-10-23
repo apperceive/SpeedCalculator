@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" >
+    <title>Ride Speed Calculator Demo</title>
+  </head>
+  <body>    
+    
+
+    <div class='block'>
+
+      <h2 class='block-title title'>Unsure which NYCC Ride to join?</h2>
+      <ul>
+        <li>Assess your cruising speed by timing yourself.</li>
+        <li>Time a four-lap ride of the complete oval in Central Park.</li> 
+        <li>That's 24.4 miles total.</li>
+        <li>Ride at a comfortable, sustainable pace.</li>
+        <li>Fewer than four laps will give a false assessment.</li>
+        <li>Position your time on the slider below (1.5 hrs = 90 min).</li>
+        <li>Note the cruising speed.</li>
+      </ul>
+       
+      <input id="coursetime" class='coursetime' type ="range" min ="0.0" max="3.0" step ="0.001" value='1.5' onchange='changetime();' onmousemove='mousetime();' />
+
+      <div id='range'><span id='timemin'>0</span><span id='timeset'></span><span id='timemax'>3</div>
+
+      <div class='results'>
+        <div id='comment'>There <strong id='ridenum'>6</strong> with this speed available to club members.</div>
+        <h2 id='time'></h1>
+        <h2 id='speed'></h1>
+      </div>
+
+      <ul>
+        <li>Pick a NYCC ride that matches your cruising speed.</li>
+        <li>It's that easy!</li>
+        <li>Most NYCC ride speeds are in the range of 10mph - 23mph.</li>
+        <li><a href='/join' title='Click to join NYCC and view upcoming rides listing...'>Click here to join or view rides.</a></li>
+      </ul>
+
+
+    </div>
+      
+    <script src='scripts.js'></script>
+  </body>
+</html>
