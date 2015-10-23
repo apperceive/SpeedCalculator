@@ -9,7 +9,7 @@ Change background-image, distance (24.4 miles here), course description and othe
 - Need fallback slider for older Firefox and Safari browsers on my old Mac Mini (get version info)
 
 ##### Notes:
-- Also available on JSFiddle.com at [jsfiddle.net/apperceive](http://jsfiddle.net/user/apperceive)
+- Also available on JSFiddle.com at [jsfiddle.net/apperceive](http://jsfiddle.net/apperceive/su7u5ssk/)
 
 ##### ToDo's:
 - Add AJAX/JSONP call for upcoming rides service
